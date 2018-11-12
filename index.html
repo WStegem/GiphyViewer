@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+    <title>Random Gif Viewer</title>
+</head>
+<body class='bg-dark text-white mx-3'>
+    <div class=row>
+        <div id=button-col class='col-lg-12 p-0'></div>
+    </div>
+    <div class='row flex-row-reverse'>
+        <div id=input-col class='col-lg-4 p-0'>
+            <h3 class='m-2'>Add a tag</h3>
+            <div class="input-group col-lg-11">
+                <input id=tag-input type="text" class="col-lg-12 form-control">
+                <div class="input-group-append">
+                    <button class="btn btn-info" id='add-tag' type="submit">Add</button>
+                </div>
+            </div>
+            <button class="btn btn-info m-3" id='more-button' type="submit">More gifs!</button>
+        </div>
+        <div id=gif-col class='col-lg-8 p-0'></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src='assets/script.js'></script>
+
+</body>
+</html>
